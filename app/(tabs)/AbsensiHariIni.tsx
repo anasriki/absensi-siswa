@@ -12,10 +12,10 @@ const TodayAttendanceScreen = () => {
       <Text style={styles.logoText}>ABSENSI SISWA</Text>
 
       {/* Attendance Buttons */}
-      <TouchableOpacity style={styles.presentButton} onPress={() => router.push('/AbsensiHariIni')}>
+      <TouchableOpacity style={styles.presentButton} onPress={() => router.push('/AttendanceSuccessfulScreen')}>
         <Text style={styles.buttonText}>HADIR</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={styles.absentButton}>
+      <TouchableOpacity style={styles.absentButton}> 
         <Text style={styles.buttonText}>IZIN</Text>
       </TouchableOpacity>
 

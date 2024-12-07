@@ -17,7 +17,7 @@ const router = useRouter();
           <Text style={styles.cardContent}>Klik untuk melihat absensi hari ini</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.card}>
+        <TouchableOpacity style={styles.card}> 
           <Text style={styles.cardTitle}>Riwayat Absensi</Text>
           <Text style={styles.cardContent}>Lihat riwayat absensi kamu</Text>
         </TouchableOpacity>
